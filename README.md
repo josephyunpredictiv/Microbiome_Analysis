@@ -7,13 +7,13 @@ Steps to run:
 
 Run Swarm:
 1. Create Swarm Script
-   '''
+   ```
    bash swarm_script_generation.sh > kraken2.swarm
-   '''
+   ```
 2. Submit swarm job
-   '''
+   ```
    swarm -f kraken2.swarm -g 72 -t 16 -- kraken/2.1.2
-   '''
+   ```
 
 Understanding output file format:
 kraken_output_${sample}.txt
